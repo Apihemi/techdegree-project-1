@@ -21,6 +21,16 @@ a:hover {
   color: #6633ff;
 }
 
+/*contact picture */
+.contact-pic {
+height: auto;
+width: auto;
+max-width: 500px;
+max-height: 500px;
+position:  relative;
+top: 100px;
+}
+
 /* Section Styles */
 
 
@@ -55,40 +65,6 @@ background-color: black;
   color: white
 }
 
-header {
-  text-align: center;
-  background: #f7f5f0 url('images/rsz_fog.jpg') no-repeat top center ;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
-  background-position: 50% 82%;
-}
-header {
-  line-height: 1.5;
-}
-header .profile-image {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3.5px solid white;
-  transition: all .3s;
-}
-header .profile-image:hover {
-  transform: scale(1.1) rotate(5deg);
-}
-.tag {
-  background-color: #efefef;
-  color: black;
-  padding: 10px;
-  border-radius: 5px;
-  display: table;
-  margin: 10px auto;
-}
-.location {
-  background-color: #222;
-  color: white;
-}
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -102,23 +78,6 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
-ul.skills {
-  padding: 0;
-  text-align: center;
-}
-
-.skills li {
-  border-radius: 6px;
-  display: inline-block;
-  background: #ff9904;
-  color: white;
-  padding: 5px 10px;
-  margin: 2px;
-}
-
-.skills li:nth-child(odd) {
-  background: #0399ff;
-}
 
 footer {
   width: 100%;
@@ -152,12 +111,8 @@ a.social {
   opacity: .5;
   transition: all .25s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
+
 a.github {
   background-image: url(images/github.svg);
 }
